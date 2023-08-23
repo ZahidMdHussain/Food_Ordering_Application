@@ -7841,2387 +7841,2441 @@ export const menuData = {
   csrfToken: "cegiN0nQjBbL-5SOW-GNofxsUBcpYjcNXkO4zHnI",
 };
 
-export const restaurantData = {
-  statusCode: 0,
-  data: {
-    cacheExpiryTime: 320,
-    pages: 1,
-    pageIndex: 0,
-    scrubber: 0,
-    filters: [
-      {
-        type: "FilterWidget",
-        title: "Cuisines",
-        key: "CUISINES",
-        configType: "checkbox",
-        visible: 1,
-        options: [
-          { option: "Afghani", selected: 0, visible: 1 },
-          { option: "American", selected: 0, visible: 1 },
-          { option: "Andhra", selected: 0, visible: 1 },
-          { option: "Arabian", selected: 0, visible: 1 },
-          { option: "Asian", selected: 0, visible: 1 },
-          { option: "Assamese", selected: 0, visible: 1 },
-          { option: "Awadhi", selected: 0, visible: 1 },
-          { option: "Bakery", selected: 0, visible: 1 },
-          { option: "Barbecue", selected: 0, visible: 1 },
-          { option: "Bengali", selected: 0, visible: 1 },
-          { option: "Beverages", selected: 0, visible: 1 },
-          { option: "Bhutanese", selected: 0, visible: 1 },
-          { option: "Bihari", selected: 0, visible: 1 },
-          { option: "Biryani", selected: 0, visible: 1 },
-          { option: "British", selected: 0, visible: 1 },
-          { option: "Burgers", selected: 0, visible: 1 },
-          { option: "Cafe", selected: 0, visible: 1 },
-          { option: "Chaat", selected: 0, visible: 1 },
-          { option: "Chettinad", selected: 0, visible: 1 },
-          { option: "Chinese", selected: 0, visible: 1 },
-          { option: "Coastal", selected: 0, visible: 1 },
-          { option: "Combo", selected: 0, visible: 1 },
-          { option: "Continental", selected: 0, visible: 1 },
-          { option: "Desserts", selected: 0, visible: 1 },
-          { option: "European", selected: 0, visible: 1 },
-          { option: "Fast Food", selected: 0, visible: 1 },
-          { option: "French", selected: 0, visible: 1 },
-          { option: "German", selected: 0, visible: 1 },
-          { option: "Grill", selected: 0, visible: 1 },
-          { option: "Gujarati", selected: 0, visible: 1 },
-          { option: "Healthy Food", selected: 0, visible: 1 },
-          { option: "Home Food", selected: 0, visible: 1 },
-          { option: "Hyderabadi", selected: 0, visible: 1 },
-          { option: "Ice Cream", selected: 0, visible: 1 },
-          { option: "Ice Cream Cakes", selected: 0, visible: 1 },
-          { option: "Indian", selected: 0, visible: 1 },
-          { option: "Italian", selected: 0, visible: 1 },
-          { option: "Italian-American", selected: 0, visible: 1 },
-          { option: "Jain", selected: 0, visible: 1 },
-          { option: "Japanese", selected: 0, visible: 1 },
-          { option: "Juices", selected: 0, visible: 1 },
-          { option: "Kebabs", selected: 0, visible: 1 },
-          { option: "Kerala", selected: 0, visible: 1 },
-          { option: "Keto", selected: 0, visible: 1 },
-          { option: "Korean", selected: 0, visible: 1 },
-          { option: "Lebanese", selected: 0, visible: 1 },
-          { option: "Lucknowi", selected: 0, visible: 1 },
-          { option: "Maharashtrian", selected: 0, visible: 1 },
-          { option: "Malaysian", selected: 0, visible: 1 },
-          { option: "Mangalorean", selected: 0, visible: 1 },
-          { option: "Mediterranean", selected: 0, visible: 1 },
-          { option: "Mexican", selected: 0, visible: 1 },
-          { option: "Middle Eastern", selected: 0, visible: 1 },
-          { option: "Mughlai", selected: 0, visible: 1 },
-          { option: "Naga", selected: 0, visible: 1 },
-          { option: "Nepalese", selected: 0, visible: 1 },
-          { option: "North Indian", selected: 0, visible: 1 },
-          { option: "Oriental", selected: 0, visible: 1 },
-          { option: "Oriya", selected: 0, visible: 1 },
-          { option: "Paan", selected: 0, visible: 1 },
-          { option: "Pan-Asian", selected: 0, visible: 1 },
-          { option: "Pastas", selected: 0, visible: 1 },
-          { option: "Persian", selected: 0, visible: 1 },
-          { option: "Pizzas", selected: 0, visible: 1 },
-          { option: "Portuguese", selected: 0, visible: 1 },
-          { option: "Punjabi", selected: 0, visible: 1 },
-          { option: "Raja", selected: 0, visible: 1 },
-          { option: "Rajasthani", selected: 0, visible: 1 },
-          { option: "Salads", selected: 0, visible: 1 },
-          { option: "Seafood", selected: 0, visible: 1 },
-          { option: "Singaporean", selected: 0, visible: 1 },
-          { option: "Snacks", selected: 0, visible: 1 },
-          { option: "South Indian", selected: 0, visible: 1 },
-          { option: "Spanish", selected: 0, visible: 1 },
-          { option: "Steakhouse", selected: 0, visible: 1 },
-          { option: "Street Food", selected: 0, visible: 1 },
-          { option: "Sushi", selected: 0, visible: 1 },
-          { option: "Sweets", selected: 0, visible: 1 },
-          { option: "Tandoor", selected: 0, visible: 1 },
-          { option: "Tex-Mex", selected: 0, visible: 1 },
-          { option: "Thai", selected: 0, visible: 1 },
-          { option: "Thalis", selected: 0, visible: 1 },
-          { option: "Tibetan", selected: 0, visible: 1 },
-          { option: "Turkish", selected: 0, visible: 1 },
-          { option: "Vietnamese", selected: 0, visible: 1 },
-          { option: "Waffle", selected: 0, visible: 1 },
+// All reasturants data in case api changes
+export const data = [
+  {
+    "info": {
+      "id": "43836",
+      "name": "McDonald's",
+      "cloudinaryImageId": "ee5f8e06b300efc07c9fe3f4df40dfc4",
+      "locality": "MG Road",
+      "areaName": "Ashok Nagar",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Burgers",
+        "Beverages",
+        "Cafe",
+        "Desserts"
+      ],
+      "avgRating": 4.2,
+      "feeDetails": {
+        "restaurantId": "43836",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 2800
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
         ],
-        detail: "",
-        heading: "Cuisines",
-        applicable: 1,
-        searchable: 1,
+        "totalFee": 2800
       },
-      {
-        type: "FilterWidget",
-        title: "Show Restaurants With",
-        key: "SHOW_RESTAURANTS_WITH",
-        configType: "checkbox",
-        visible: 1,
-        options: [{ option: "Pure Veg", selected: 0, visible: 1 }],
-        detail: "",
-        heading: "Offers & More",
-        applicable: 1,
-        searchable: 0,
+      "parentId": "630",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 22,
+        "lastMileTravel": 1.4,
+        "serviceability": "SERVICEABLE",
+        "slaString": "22 mins",
+        "lastMileTravelString": "1.4 km",
+        "iconType": "ICON_TYPE_EMPTY"
       },
-    ],
-    sorts: [
-      {
-        type: "SortWidget",
-        key: "RELEVANCE",
-        title: "Relevance",
-        selected: 1,
-        visible: 1,
-        defaultSelection: true,
+      "availability": {
+        "nextCloseTime": "2023-08-24 02:45:00",
+        "opened": true
       },
-      {
-        type: "SortWidget",
-        key: "DELIVERY_TIME",
-        title: "Delivery Time",
-        selected: 0,
-        visible: 1,
-        defaultSelection: false,
+      "badges": {
+        
       },
-      {
-        type: "SortWidget",
-        key: "RATING",
-        title: "Rating",
-        selected: 0,
-        visible: 1,
-        defaultSelection: false,
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
       },
-      {
-        type: "SortWidget",
-        key: "COST_FOR_TWO",
-        title: "Cost: Low to High",
-        selected: 0,
-        visible: 1,
-        defaultSelection: false,
+      "aggregatedDiscountInfoV3": {
+        "header": "10% OFF",
+        "subHeader": "ABOVE ₹999",
+        "discountTag": "FLAT DEAL",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
       },
-      {
-        type: "SortWidget",
-        key: "COST_FOR_TWO_H2L",
-        title: "Cost: High to Low",
-        selected: 0,
-        visible: 1,
-        defaultSelection: false,
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
       },
-    ],
-    configs: {
-      ribbons: {
-        PREORDER: {
-          type: "PREORDER",
-          text: "Preorder",
-          textColor: "#ffffff",
-          imageId: "sfefefefeegeg",
-          topBackgroundColor: "#d53d4c",
-          bottomBackgroundColor: "#af2330",
-          priority: 3,
-        },
-        EXCLUSIVE: {
-          type: "EXCLUSIVE",
-          text: "Exclusive",
-          textColor: "#ffffff",
-          imageId: "sfefefefeegeg",
-          topBackgroundColor: "#fa4a5b",
-          bottomBackgroundColor: "#d12a3b",
-          priority: 2,
-        },
-        NEW: {
-          type: "NEW",
-          text: "Newly Added",
-          textColor: "#ffffff",
-          imageId: "sfefefefeegeg",
-          topBackgroundColor: "#d53d4c",
-          bottomBackgroundColor: "#af2330",
-          priority: 4,
-        },
-        REPEAT: {
-          type: "REPEAT",
-          text: "Repeat",
-          textColor: "#ffffff",
-          imageId: "sfefefefeegeg",
-          topBackgroundColor: "#D53D4C",
-          bottomBackgroundColor: "#B02331",
-          priority: 6,
-        },
-        CLOUD: {
-          type: "CLOUD",
-          text: "Daily Menus",
-          textColor: "#ffffff",
-          imageId: "sfefefefeegeg",
-          topBackgroundColor: "#fa4a5b",
-          bottomBackgroundColor: "#d12a3b",
-          priority: 5,
-        },
-        PREMIUM: {
-          type: "PREMIUM",
-          text: "Premium",
-          textColor: "#ffffff",
-          imageId: "sfefefefeegeg",
-          topBackgroundColor: "#8a584b",
-          bottomBackgroundColor: "#583229",
-          priority: 7,
-        },
-        PROMOTED: {
-          type: "PROMOTED",
-          text: "Promoted",
-          textColor: "#ffffff",
-          imageId: "sfefefefeegeg",
-          topBackgroundColor: "#3a3c41",
-          bottomBackgroundColor: "#1e2023",
-          priority: 1,
-        },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
       },
-      croutons: {
-        RAIN: {
-          type: "Crouton",
-          bgColor: "#282C3F",
-          icon: "surge_listing_piuzrv",
-          textColor: "#ffffff",
-          title: "Bad Weather",
-          message: "${amount} extra levied on some restaurants",
-        },
-        SERVICEABLE_WITH_BANNER_RAIN: {
-          type: "Crouton",
-          bgColor: "#282C3F",
-          icon: "rain_crouton_4x",
-          textColor: "#ffffff",
-          title: "Bad Weather",
-          message: "Few restaurants unserviceable due to rains",
-        },
+      "reviewsSummary": {
+        
       },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
     },
-    cards: [
-      {
-        cardType: "carousel",
-        layoutAlignmentType: "VERTICAL",
-        data: {
-          type: "carousel",
-          subtype: "topCarousel",
-          data: {
-            cards: [
-              {
-                type: "carouselElement",
-                subtype: "image",
-                data: {
-                  bannerId: 635529,
-                  creativeId: "rng/md/carousel/production/pneknawbadtvceqzwiep",
-                  type: "restaurantCollectionV2",
-                  link: "49301",
-                  cityId: 0,
-                  restaurantUuid: "",
-                  restaurantParentId: "0",
-                  thirdPartyVendor: "",
-                  thirdPartyAddress: false,
-                },
-              },
-              {
-                type: "carouselElement",
-                subtype: "image",
-                data: {
-                  bannerId: 619141,
-                  creativeId: "rng/md/carousel/production/zpkkdkmvlj5cuvqbc50t",
-                  type: "restaurantCollectionV2",
-                  link: "56413",
-                  cityId: 0,
-                  restaurantUuid: "",
-                  restaurantParentId: "0",
-                  thirdPartyVendor: "",
-                  thirdPartyAddress: false,
-                },
-              },
-              {
-                type: "carouselElement",
-                subtype: "image",
-                data: {
-                  bannerId: 619143,
-                  creativeId: "rng/md/carousel/production/lzkjv3sxwwjkzg0vxpvt",
-                  type: "restaurantCollectionV2",
-                  link: "56422",
-                  cityId: 0,
-                  restaurantUuid: "",
-                  restaurantParentId: "0",
-                  thirdPartyVendor: "",
-                  thirdPartyAddress: false,
-                },
-              },
-              {
-                type: "carouselElement",
-                subtype: "image",
-                data: {
-                  bannerId: 619142,
-                  creativeId: "rng/md/carousel/production/tgnvusbs3fnzz7xupeno",
-                  type: "restaurantCollectionV2",
-                  link: "56417",
-                  cityId: 0,
-                  restaurantUuid: "",
-                  restaurantParentId: "0",
-                  thirdPartyVendor: "",
-                  thirdPartyAddress: false,
-                },
-              },
-              {
-                type: "carouselElement",
-                subtype: "image",
-                data: {
-                  bannerId: 619145,
-                  creativeId: "rng/md/carousel/production/nhubtkw7dukg3ukcmpam",
-                  type: "restaurantCollectionV2",
-                  link: "56414",
-                  cityId: 0,
-                  restaurantUuid: "",
-                  restaurantParentId: "0",
-                  thirdPartyVendor: "",
-                  thirdPartyAddress: false,
-                },
-              },
-              {
-                type: "carouselElement",
-                subtype: "image",
-                data: {
-                  bannerId: 607193,
-                  creativeId: "rng/md/carousel/production/s5ug2key6e2sptaxku5v",
-                  type: "restaurantCollectionV2",
-                  link: "56410",
-                  cityId: 0,
-                  restaurantUuid: "",
-                  restaurantParentId: "0",
-                  thirdPartyVendor: "",
-                  thirdPartyAddress: false,
-                },
-              },
-              {
-                type: "carouselElement",
-                subtype: "image",
-                data: {
-                  bannerId: 607195,
-                  creativeId: "rng/md/carousel/production/ifi2lbzxeu1hvsqrsip3",
-                  type: "restaurantCollectionV2",
-                  link: "56421",
-                  cityId: 0,
-                  restaurantUuid: "",
-                  restaurantParentId: "0",
-                  thirdPartyVendor: "",
-                  thirdPartyAddress: false,
-                },
-              },
-            ],
-          },
-        },
-        parentWidget: false,
-      },
-      {
-        cardType: "carousel",
-        layoutAlignmentType: "VERTICAL",
-        data: {
-          type: "carousel",
-          subtype: "openFilter",
-          data: {
-            cards: [
-              {
-                type: "carouselElement",
-                subtype: "image",
-                data: {
-                  bannerId: 181684,
-                  creativeId: "bkhjfipzydkoqncrxpyi",
-                  type: "restaurantCollectionV2",
-                  link: "11718",
-                  cityId: 0,
-                  restaurantUuid: "",
-                  restaurantParentId: "0",
-                  title: "Offers Near You",
-                  subtitle: "0 OPTIONS",
-                  restaurants: [],
-                  totalCount: 0,
-                  dwebOpenFilterTitle: "Offers Near You",
-                  dwebOpenFilterBgColor: "#FF0000",
-                  dwebOpenFilterSelectIcon: "eyperwsfhaoa5vktjtu4",
-                  dwebOpenFilterDeselectIcon: "urw8usdf4mk9aywd59gq",
-                },
-              },
-              {
-                type: "carouselElement",
-                subtype: "image",
-                data: {
-                  bannerId: 273242,
-                  creativeId: "rng/md/carousel/production/vquntqrzvkb08pe59cec",
-                  type: "restaurantCollectionV2",
-                  link: "46147",
-                  cityId: 0,
-                  restaurantUuid: "",
-                  restaurantParentId: "0",
-                  title: "Top Picks",
-                  subtitle: "0 OPTIONS",
-                  restaurants: [],
-                  totalCount: 0,
-                  dwebOpenFilterTitle: "Top Picks",
-                  dwebOpenFilterBgColor: "#FF0000",
-                  dwebOpenFilterSelectIcon:
-                    "rng/md/carousel/production/vt13uzhjrg5r49kh9oru",
-                  dwebOpenFilterDeselectIcon:
-                    "rng/md/carousel/production/ser2sttildk9yt7t2s91",
-                },
-              },
-              {
-                type: "carouselElement",
-                subtype: "image",
-                data: {
-                  bannerId: 181685,
-                  creativeId: "auhzanqqslsq5meh0m9l",
-                  type: "restaurantCollectionV2",
-                  link: "11709",
-                  cityId: 0,
-                  restaurantUuid: "",
-                  restaurantParentId: "0",
-                  title: "Only on Swiggy",
-                  subtitle: "0 OPTIONS",
-                  restaurants: [],
-                  totalCount: 0,
-                  dwebOpenFilterTitle: "Only on Swiggy",
-                  dwebOpenFilterBgColor: "#FF0000",
-                  dwebOpenFilterSelectIcon: "tvjhvfzjhbxune2idler",
-                  dwebOpenFilterDeselectIcon: "y4vnumwu4f8olsly1hnw",
-                },
-              },
-              {
-                type: "carouselElement",
-                subtype: "image",
-                data: {
-                  bannerId: 181680,
-                  creativeId: "a3jqjjod5taken7dh1bs",
-                  type: "restaurantCollectionV2",
-                  link: "11721",
-                  cityId: 0,
-                  restaurantUuid: "",
-                  restaurantParentId: "0",
-                  title: "Veg Only",
-                  subtitle: "0 OPTIONS",
-                  restaurants: [],
-                  totalCount: 0,
-                  dwebOpenFilterTitle: "Vegetarian Options",
-                  dwebOpenFilterBgColor: "#FF0000",
-                  dwebOpenFilterSelectIcon: "qtjc8dzfexg72lug37a0",
-                  dwebOpenFilterDeselectIcon: "bm8bziikwyvwqsml1clm",
-                },
-              },
-            ],
-          },
-        },
-        parentWidget: false,
-      },
-      {
-        cardType: "seeAllRestaurants",
-        layoutAlignmentType: "VERTICAL",
-        data: {
-          type: "seeAllRestaurants",
-          data: {
-            title: "SEE ALL",
-            totalOpenRestaurants: 1807,
-            cards: [
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "121603",
-                  name: "Kannur Food Point",
-                  uuid: "51983905-e698-4e31-b0d7-e376eca56320",
-                  city: "1",
-                  area: "Tavarekere",
-                  totalRatingsString: "5000+ ratings",
-                  cloudinaryImageId: "bmwn4n4bn6n1tcpc8x2h",
-                  cuisines: ["Kerala", "Chinese"],
-                  tags: [],
-                  costForTwo: 30000,
-                  costForTwoString: "₹300 FOR TWO",
-                  deliveryTime: 25,
-                  minDeliveryTime: 25,
-                  maxDeliveryTime: 25,
-                  slaString: "25 MINS",
-                  lastMileTravel: 3,
-                  slugs: {
-                    restaurant: "kannur-food-point-btm",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "6/21,9TH CROSS ,1ST MAIN, VENKATESHWARA LAYOUT,SG PALYA, BENGALURU, - 560093",
-                  locality: "SG Palya",
-                  parentId: 20974,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off on all orders",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                      {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off on all orders",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                      {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Free Delivery",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off on all orders",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                      {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  ribbon: [{ type: "PROMOTED" }],
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID:
-                    "cid=5873964~p=1~eid=00000186-3a93-08a3-2851-5d8900e50169",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "3 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "121603",
-                    deliveryTime: 25,
-                    minDeliveryTime: 25,
-                    maxDeliveryTime: 25,
-                    lastMileTravel: 3,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: true,
-                  avgRating: "3.9",
-                  totalRatings: 5000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "229",
-                  name: "Meghana Foods",
-                  uuid: "4fdd19e2-5d0f-4bde-9c7f-dc3e8d36021f",
-                  city: "1",
-                  area: "Koramangala",
-                  totalRatingsString: "5000+ ratings",
-                  cloudinaryImageId: "xqwpuhgnsaf18te7zvtv",
-                  cuisines: [
-                    "Biryani",
-                    "Andhra",
-                    "South Indian",
-                    "North Indian",
-                    "Chinese",
-                    "Seafood",
-                  ],
-                  tags: [],
-                  costForTwo: 50000,
-                  costForTwoString: "₹500 FOR TWO",
-                  deliveryTime: 23,
-                  minDeliveryTime: 23,
-                  maxDeliveryTime: 23,
-                  slaString: "23 MINS",
-                  lastMileTravel: 1.399999976158142,
-                  slugs: {
-                    restaurant: "meghana-foods-5th-block-koramangala",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "124, Near Jyothi Nivas College, 1st Cross, KHB Colony, Koramangala 5th Block, Bangalore",
-                  locality: "5th Block",
-                  parentId: 635,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID: "",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "1.3 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "229",
-                    deliveryTime: 23,
-                    minDeliveryTime: 23,
-                    maxDeliveryTime: 23,
-                    lastMileTravel: 1.399999976158142,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: false,
-                  avgRating: "4.4",
-                  totalRatings: 5000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "425",
-                  name: "Hotel Empire",
-                  uuid: "c0c37758-2e83-4429-aad6-eb94debb48f5",
-                  city: "1",
-                  area: "Koramangala",
-                  totalRatingsString: "1000+ ratings",
-                  cloudinaryImageId: "un4omn7rcunkmlw6vikr",
-                  cuisines: ["North Indian", "Kebabs", "Biryani"],
-                  tags: [],
-                  costForTwo: 45000,
-                  costForTwoString: "₹450 FOR TWO",
-                  deliveryTime: 25,
-                  minDeliveryTime: 25,
-                  maxDeliveryTime: 25,
-                  slaString: "25 MINS",
-                  lastMileTravel: 1.2999999523162842,
-                  slugs: {
-                    restaurant: "hotel-empire-5th-block-koramangala",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "103, Industrial Area, 5th Block, Near Jyothi Nivas College, Koramangala 5th Block, Bangalore",
-                  locality: "Koramangala",
-                  parentId: 475,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID: "",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "1.2 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "425",
-                    deliveryTime: 25,
-                    minDeliveryTime: 25,
-                    maxDeliveryTime: 25,
-                    lastMileTravel: 1.2999999523162842,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: false,
-                  avgRating: "4.1",
-                  totalRatings: 1000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "342032",
-                  name: "Bhartiya Jalpan",
-                  uuid: "9bd9aa90-0b97-4f24-969a-3f16c5aafc66",
-                  city: "1",
-                  area: "HSR Layout",
-                  totalRatingsString: "1000+ ratings",
-                  cloudinaryImageId: "ybfyjdu8fhlgqj6i9dlh",
-                  cuisines: ["North Indian", "Sweets", "Desserts", "Chaat"],
-                  tags: [],
-                  costForTwo: 45000,
-                  costForTwoString: "₹450 FOR TWO",
-                  deliveryTime: 32,
-                  minDeliveryTime: 32,
-                  maxDeliveryTime: 32,
-                  slaString: "32 MINS",
-                  lastMileTravel: 4.900000095367432,
-                  slugs: {
-                    restaurant: "bhartiya-jalpan-hsr-hsr",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "NO.2631,27TH MAIN ROAD, 1ST SECTOR , HSR LAYOUT, BANGALORE - 560102",
-                  locality: "1st Sector",
-                  parentId: 7518,
-                  unserviceable: false,
-                  veg: true,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  ribbon: [{ type: "PROMOTED" }],
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID:
-                    "cid=5889013~p=4~eid=00000186-3a93-08a3-2851-5d8a00e5045e",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "4.9 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "342032",
-                    deliveryTime: 32,
-                    minDeliveryTime: 32,
-                    maxDeliveryTime: 32,
-                    lastMileTravel: 4.900000095367432,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: true,
-                  avgRating: "4.1",
-                  totalRatings: 1000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "492159",
-                  name: "Roti Wala",
-                  uuid: "ada41f9b-cca3-4197-805c-8c43798919e9",
-                  city: "1",
-                  area: "Koramangala",
-                  totalRatingsString: "100+ ratings",
-                  cloudinaryImageId: "51f52730c0a08dc89dca3df021370477",
-                  cuisines: ["Home Food", "North Indian", "Thalis"],
-                  tags: [],
-                  costForTwo: 20000,
-                  costForTwoString: "₹200 FOR TWO",
-                  deliveryTime: 33,
-                  minDeliveryTime: 33,
-                  maxDeliveryTime: 33,
-                  slaString: "33 MINS",
-                  lastMileTravel: 1,
-                  slugs: {
-                    restaurant: "new-roti-wala-koramangala-koramangala",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "No 18 ,MIG, KHB Colony, 5th Block, Koramangala, Bengaluru, Karnataka 560095, India",
-                  locality: "5th Block",
-                  parentId: 171678,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID: "",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "1 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "492159",
-                    deliveryTime: 33,
-                    minDeliveryTime: 33,
-                    maxDeliveryTime: 33,
-                    lastMileTravel: 1,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: false,
-                  avgRating: "4.2",
-                  totalRatings: 100,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "428",
-                  name: "Biryani Pot",
-                  uuid: "6db20a8b-dd85-4148-b750-107169f7f826",
-                  city: "1",
-                  area: "Btm Layout",
-                  totalRatingsString: "1000+ ratings",
-                  cloudinaryImageId: "mdipoyzfzsa7n7igskht",
-                  cuisines: ["North Indian", "Biryani"],
-                  tags: [],
-                  costForTwo: 50000,
-                  costForTwoString: "₹500 FOR TWO",
-                  deliveryTime: 20,
-                  minDeliveryTime: 20,
-                  maxDeliveryTime: 20,
-                  slaString: "20 MINS",
-                  lastMileTravel: 1.899999976158142,
-                  slugs: {
-                    restaurant: "biryani-pot-madiwala-junction-btm",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "14th  Cross, 4th link Road Maruthi Nagar Madiwala Bangalore 68",
-                  locality: "Maruti Nagar",
-                  parentId: 21798,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID: "",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "1.8 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "428",
-                    deliveryTime: 20,
-                    minDeliveryTime: 20,
-                    maxDeliveryTime: 20,
-                    lastMileTravel: 1.899999976158142,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: false,
-                  avgRating: "3.8",
-                  totalRatings: 1000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "304",
-                  name: "A2B - Adyar Ananda Bhavan",
-                  uuid: "8e22fe16-7eba-4d21-bb3c-d35c10f1f443",
-                  city: "1",
-                  area: "HSR Layout",
-                  totalRatingsString: "1000+ ratings",
-                  cloudinaryImageId: "fwkkx0iaiuyojevcxxnp",
-                  cuisines: [
-                    "South Indian",
-                    "North Indian",
-                    "Sweets",
-                    "Chinese",
-                  ],
-                  tags: [],
-                  costForTwo: 30000,
-                  costForTwoString: "₹300 FOR TWO",
-                  deliveryTime: 26,
-                  minDeliveryTime: 26,
-                  maxDeliveryTime: 26,
-                  slaString: "26 MINS",
-                  lastMileTravel: 3.9000000953674316,
-                  slugs: {
-                    restaurant: "a2b-veg-sector-6-hsr",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "#27, Ground Floor, BDA Complex, HSR Layout, Bangalore - 560 102",
-                  locality: "Dr Puneeth Rajkumar Rd",
-                  parentId: 22,
-                  unserviceable: false,
-                  veg: true,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  ribbon: [{ type: "PROMOTED" }],
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID:
-                    "cid=5851649~p=7~eid=00000186-3a93-08a3-2851-5d8b00e50718",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "3.9 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "304",
-                    deliveryTime: 26,
-                    minDeliveryTime: 26,
-                    maxDeliveryTime: 26,
-                    lastMileTravel: 3.9000000953674316,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: true,
-                  avgRating: "4.3",
-                  totalRatings: 1000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "337335",
-                  name: "Kannur food kitchen",
-                  uuid: "c70b61bc-0f68-4e24-996b-749fbf295c35",
-                  city: "1",
-                  area: "BTM Layout",
-                  totalRatingsString: "1000+ ratings",
-                  cloudinaryImageId: "a27weqanhnszqiuzsoik",
-                  cuisines: ["Kerala", "Biryani", "Beverages"],
-                  tags: [],
-                  costForTwo: 20000,
-                  costForTwoString: "₹200 FOR TWO",
-                  deliveryTime: 24,
-                  minDeliveryTime: 24,
-                  maxDeliveryTime: 24,
-                  slaString: "24 MINS",
-                  lastMileTravel: 2.5,
-                  slugs: {
-                    restaurant: "kannur-food-kitchen-btm-btm",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "kannur food point, Chocolate Factory Road, Tavarekere, Cashier Layout, 1st Stage, BTM Layout, thavrakharea, Karnataka, India",
-                  locality: "1st  Stage",
-                  parentId: 114756,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off on all orders",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                      {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off on all orders",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                      {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Free Delivery",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off on all orders",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                      {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID: "",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "2.5 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "337335",
-                    deliveryTime: 24,
-                    minDeliveryTime: 24,
-                    maxDeliveryTime: 24,
-                    lastMileTravel: 2.5,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: false,
-                  avgRating: "3.8",
-                  totalRatings: 1000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "485933",
-                  name: "Dindigul Thalappakatti",
-                  uuid: "97deea43-6886-4980-8567-6d78b3c8c216",
-                  city: "1",
-                  area: "The Nexus Mall",
-                  totalRatingsString: "100+ ratings",
-                  cloudinaryImageId: "cluiug5t7vmz7idrhh82",
-                  cuisines: [
-                    "South Indian",
-                    "Biryani",
-                    "Chinese",
-                    "North Indian",
-                  ],
-                  tags: [],
-                  costForTwo: 50000,
-                  costForTwoString: "₹500 FOR TWO",
-                  deliveryTime: 25,
-                  minDeliveryTime: 25,
-                  maxDeliveryTime: 25,
-                  slaString: "25 MINS",
-                  lastMileTravel: 2.200000047683716,
-                  slugs: {
-                    restaurant:
-                      "dindigul-thalappakatti-koramangala-koramangala-3",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address: "Forum Mall",
-                  locality: "The Nexus Mall",
-                  parentId: 332,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  ribbon: [{ type: "PROMOTED" }],
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID:
-                    "cid=5852103~p=10~eid=00000186-3a93-08a3-2851-5d8c00e50a1b",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "2.2 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "485933",
-                    deliveryTime: 25,
-                    minDeliveryTime: 25,
-                    maxDeliveryTime: 25,
-                    lastMileTravel: 2.200000047683716,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: true,
-                  avgRating: "3.8",
-                  totalRatings: 100,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "201224",
-                  name: "Asha tiffins",
-                  uuid: "e32381cf-6468-4c10-9bad-47fa08e898a8",
-                  city: "1",
-                  area: "HSR Layout",
-                  totalRatingsString: "1000+ ratings",
-                  cloudinaryImageId: "n15vckntsiboiod3gpco",
-                  cuisines: ["Indian", "South Indian", "Beverages"],
-                  tags: [],
-                  costForTwo: 20000,
-                  costForTwoString: "₹200 FOR TWO",
-                  deliveryTime: 28,
-                  minDeliveryTime: 28,
-                  maxDeliveryTime: 28,
-                  slaString: "28 MINS",
-                  lastMileTravel: 4,
-                  slugs: {
-                    restaurant: "asha-tiffins-hsr-hsr-2",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "Asha Tiffins, 5th Main Road, Sector 7, HSR Layout, Bengaluru, Karnataka, India",
-                  locality: "7th Sector",
-                  parentId: 236243,
-                  unserviceable: false,
-                  veg: true,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID: "",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "4 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "201224",
-                    deliveryTime: 28,
-                    minDeliveryTime: 28,
-                    maxDeliveryTime: 28,
-                    lastMileTravel: 4,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: false,
-                  avgRating: "4.4",
-                  totalRatings: 1000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "108158",
-                  name: "Kabab magic",
-                  uuid: "2fc26cdc-f642-4459-9888-6661c142e8b7",
-                  city: "1",
-                  area: "Btm Layout",
-                  totalRatingsString: "100+ ratings",
-                  cloudinaryImageId: "aagnmdkdxshwhhtzl7vk",
-                  cuisines: [
-                    "Chinese",
-                    "South Indian",
-                    "North Indian",
-                    "Fast Food",
-                    "Mexican",
-                    "Kerala",
-                  ],
-                  tags: [],
-                  costForTwo: 30000,
-                  costForTwoString: "₹300 FOR TWO",
-                  deliveryTime: 23,
-                  minDeliveryTime: 23,
-                  maxDeliveryTime: 23,
-                  slaString: "23 MINS",
-                  lastMileTravel: 2.0999999046325684,
-                  slugs: { restaurant: "kabab-magic-btm-2", city: "bangalore" },
-                  cityState: "1",
-                  address:
-                    "3/1, 1st main road 2 nd cross,Maruthi nagar ,Madiwala,Bangalore",
-                  locality: "Maruti Nagar",
-                  parentId: 527,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID: "",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "2 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "108158",
-                    deliveryTime: 23,
-                    minDeliveryTime: 23,
-                    maxDeliveryTime: 23,
-                    lastMileTravel: 2.0999999046325684,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: false,
-                  avgRating: "3.8",
-                  totalRatings: 100,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "176327",
-                  name: "Kebarbiq - Grill your Hunger",
-                  uuid: "d2766ec4-19be-473c-a761-8caea345f610",
-                  city: "1",
-                  area: "HSR Layout",
-                  totalRatingsString: "1000+ ratings",
-                  cloudinaryImageId: "xzvmo5frzeyryb4gddpr",
-                  cuisines: [
-                    "Indian",
-                    "Arabian",
-                    "Chinese",
-                    "Pizzas",
-                    "Barbecue",
-                    "Continental",
-                    "Beverages",
-                    "Combo",
-                    "Italian",
-                    "Desserts",
-                    "Juices",
-                    "Grill",
-                    "Tandoor",
-                  ],
-                  tags: [],
-                  costForTwo: 50000,
-                  costForTwoString: "₹500 FOR TWO",
-                  deliveryTime: 34,
-                  minDeliveryTime: 34,
-                  maxDeliveryTime: 34,
-                  slaString: "34 MINS",
-                  lastMileTravel: 4.5,
-                  slugs: {
-                    restaurant: "kebarbiq-grill-your-hunger-hsr",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "No.445, FFK Tower, 17th Cross Road, 4th sector, hsr layout",
-                  locality: "4th Sector",
-                  parentId: 116273,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  ribbon: [{ type: "PROMOTED" }],
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID:
-                    "cid=5845387~p=13~eid=00000186-3a93-08a3-2851-5d8d00e50d12",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "4.5 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "176327",
-                    deliveryTime: 34,
-                    minDeliveryTime: 34,
-                    maxDeliveryTime: 34,
-                    lastMileTravel: 4.5,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: true,
-                  avgRating: "4.1",
-                  totalRatings: 1000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "5934",
-                  name: "Burger King",
-                  uuid: "ac56f2ac-71d3-4978-9513-b3aa68e25463",
-                  city: "1",
-                  area: "Koramangala",
-                  totalRatingsString: "1000+ ratings",
-                  cloudinaryImageId: "jpohkfkofao0hxez7vdh",
-                  cuisines: ["Burgers", "American"],
-                  tags: [],
-                  costForTwo: 35000,
-                  costForTwoString: "₹350 FOR TWO",
-                  deliveryTime: 24,
-                  minDeliveryTime: 24,
-                  maxDeliveryTime: 24,
-                  slaString: "24 MINS",
-                  lastMileTravel: 1.399999976158142,
-                  slugs: {
-                    restaurant: "burger-king-koramangala",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "Unit No. 1, Davar Atrium, Corporation No. 118, Koramangala Industrial Area 7th Block, Bangalore 560095",
-                  locality: "7th Block",
-                  parentId: 166,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "Get every item under 139",
-                    shortDescriptionList: [
-                      {
-                        meta: "Get every item under 139",
-                        discountType: "FinalPrice",
-                        operationType: "RESTAURANT",
-                      },
-                      {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "Get every item under 139",
-                        discountType: "FinalPrice",
-                        operationType: "RESTAURANT",
-                      },
-                      {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "",
-                    shortDescriptionList: [
-                      {
-                        meta: "",
-                        discountType: "FinalPrice",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "Get every item under 139",
-                        discountType: "FinalPrice",
-                        operationType: "RESTAURANT",
-                      },
-                      {
-                        meta: "FREE DELIVERY",
-                        discountType: "FREE_DELIVERY",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID: "",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "1.3 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "5934",
-                    deliveryTime: 24,
-                    minDeliveryTime: 24,
-                    maxDeliveryTime: 24,
-                    lastMileTravel: 1.399999976158142,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: false,
-                  avgRating: "4.2",
-                  totalRatings: 1000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "223",
-                  name: "Truffles",
-                  uuid: "8250cc38-4752-4f42-928b-4da5f01e5cbe",
-                  city: "1",
-                  area: "Koramangala",
-                  totalRatingsString: "1000+ ratings",
-                  cloudinaryImageId: "cd832b6167eb9f88aeb1ccdebf38d942",
-                  cuisines: ["American", "Continental", "Desserts", "Italian"],
-                  tags: [],
-                  costForTwo: 45000,
-                  costForTwoString: "₹450 FOR TWO",
-                  deliveryTime: 28,
-                  minDeliveryTime: 28,
-                  maxDeliveryTime: 28,
-                  slaString: "28 MINS",
-                  lastMileTravel: 1.600000023841858,
-                  slugs: {
-                    restaurant: "truffles-ice-spice-5th-block-koramangala",
-                    city: "bangalore",
-                  },
-                  cityState: "1",
-                  address:
-                    "93/A, Appek Building, 'A' Wing,  4th 'B' Cross,  Koramangala Industrial Layout, 5th Block, Koramangala, Bangalore - 560 095",
-                  locality: "5th Block",
-                  parentId: 218065,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID: "",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "1.6 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "223",
-                    deliveryTime: 28,
-                    minDeliveryTime: 28,
-                    maxDeliveryTime: 28,
-                    lastMileTravel: 1.600000023841858,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: false,
-                  avgRating: "4.4",
-                  totalRatings: 1000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-              {
-                type: "restaurant",
-                data: {
-                  type: "F",
-                  id: "92389",
-                  name: "Muthashy's",
-                  uuid: "1e47bc36-13c4-45af-a29d-9c2417a383cb",
-                  city: "1",
-                  area: "Btm Layout",
-                  totalRatingsString: "1000+ ratings",
-                  cloudinaryImageId: "fifv8bhm4mzqausmynfa",
-                  cuisines: [
-                    "Chinese",
-                    "South Indian",
-                    "North Indian",
-                    "Kerala",
-                    "Seafood",
-                  ],
-                  tags: [],
-                  costForTwo: 30000,
-                  costForTwoString: "₹300 FOR TWO",
-                  deliveryTime: 24,
-                  minDeliveryTime: 24,
-                  maxDeliveryTime: 24,
-                  slaString: "24 MINS",
-                  lastMileTravel: 2.5,
-                  slugs: { restaurant: "muthashy39s-btm", city: "bangalore" },
-                  cityState: "1",
-                  address:
-                    "3, Brindavan Complex, 20th Main, Maruthi Nagar Main Road, 1st Stage, BTM Layout",
-                  locality: "Maruti Nagar",
-                  parentId: 21429,
-                  unserviceable: false,
-                  veg: false,
-                  select: false,
-                  favorite: false,
-                  tradeCampaignHeaders: [],
-                  aggregatedDiscountInfo: {
-                    header: "50% off",
-                    shortDescriptionList: [
-                      {
-                        meta: "50% off | Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  aggregatedDiscountInfoV2: {
-                    header: "50% OFF",
-                    shortDescriptionList: [
-                      {
-                        meta: "Use WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    descriptionList: [
-                      {
-                        meta: "50% off up to ₹100 | Use code WELCOME50",
-                        discountType: "Percentage",
-                        operationType: "RESTAURANT",
-                      },
-                    ],
-                    subHeader: "",
-                    headerType: 0,
-                    superFreedel: "",
-                  },
-                  ribbon: [{ type: "PROMOTED" }],
-                  chain: [],
-                  feeDetails: {
-                    fees: [],
-                    totalFees: 0,
-                    message: "",
-                    title: "",
-                    amount: "",
-                    icon: "",
-                  },
-                  availability: {
-                    opened: true,
-                    nextOpenMessage: "",
-                    nextCloseMessage: "",
-                  },
-                  longDistanceEnabled: 0,
-                  rainMode: "NONE",
-                  thirdPartyAddress: false,
-                  thirdPartyVendor: "",
-                  adTrackingID:
-                    "cid=5830834~p=16~eid=00000186-3a93-08a3-2851-5d8e00e5102a",
-                  badges: {
-                    imageBased: [],
-                    textBased: [],
-                    textExtendedBadges: [],
-                  },
-                  lastMileTravelString: "2.5 kms",
-                  hasSurge: false,
-                  sla: {
-                    restaurantId: "92389",
-                    deliveryTime: 24,
-                    minDeliveryTime: 24,
-                    maxDeliveryTime: 24,
-                    lastMileTravel: 2.5,
-                    lastMileDistance: 0,
-                    serviceability: "SERVICEABLE",
-                    rainMode: "NONE",
-                    longDistance: "NOT_LONG_DISTANCE",
-                    preferentialService: false,
-                    iconType: "EMPTY",
-                  },
-                  promoted: true,
-                  avgRating: "4.3",
-                  totalRatings: 1000,
-                  new: false,
-                },
-                subtype: "basic",
-              },
-            ],
-            totalRestaurants: 1807,
-          },
-          subtype: "personalized",
-        },
-        parentWidget: false,
-      },
-    ],
-    nextPageFetch: 0,
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/mcdonalds-mg-road-ashok-nagar-bangalore-43836",
+      "type": "WEBLINK"
+    }
   },
-  tid: "afc320b0-a0c0-4915-a445-563dbdb42bb6",
-  sid: "5bqa7ccf-d563-4f2a-9c30-ccd57ce305ce",
-  deviceId: "44e4bedc-eed7-1963-a2fe-1164bdae290d",
-  csrfToken: "IYqapsCZDoxb-5eCGfJxR73JSt7xN0XPHsPS3XkM",
-};
+  {
+    "info": {
+      "id": "5938",
+      "name": "Burger King",
+      "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+      "locality": "Tasker Town",
+      "areaName": "Shivaji Nagar",
+      "costForTwo": "₹350 for two",
+      "cuisines": [
+        "Burgers",
+        "American"
+      ],
+      "avgRating": 4.1,
+      "feeDetails": {
+        "restaurantId": "5938",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 2800
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 2800
+      },
+      "parentId": "166",
+      "avgRatingString": "4.1",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 29,
+        "lastMileTravel": 2.7,
+        "serviceability": "SERVICEABLE",
+        "slaString": "29 mins",
+        "lastMileTravelString": "2.7 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-24 02:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹120",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/burger-king-tasker-town-shivaji-nagar-bangalore-5938",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "347868",
+      "name": "KFC",
+      "cloudinaryImageId": "56c9ab92bd79745fd152a30fa2525426",
+      "locality": "Cunnigham road",
+      "areaName": "Vasanth Nagar",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Burgers",
+        "Biryani",
+        "American",
+        "Snacks",
+        "Fast Food"
+      ],
+      "avgRating": 3.8,
+      "feeDetails": {
+        "restaurantId": "347868",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3900
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3900
+      },
+      "parentId": "547",
+      "avgRatingString": "3.8",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 26,
+        "lastMileTravel": 3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "26 mins",
+        "lastMileTravelString": "3.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-24 03:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "UPTO ₹50",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/kfc-cunnigham-road-vasanth-nagar-bangalore-347868",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "23847",
+      "name": "Domino's Pizza",
+      "cloudinaryImageId": "fjqcvqfgqlw6h0atques",
+      "locality": "Rest House Road",
+      "areaName": "Brigade Road",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Pizzas",
+        "Italian",
+        "Pastas",
+        "Desserts"
+      ],
+      "avgRating": 4.3,
+      "feeDetails": {
+        "restaurantId": "23847",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 2800
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 2800
+      },
+      "parentId": "2456",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "5K+",
+      "sla": {
+        "deliveryTime": 25,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25 mins",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 22:59:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹125 OFF",
+        "subHeader": "ABOVE ₹999",
+        "discountTag": "FLAT DEAL"
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/dominos-pizza-rest-house-road-brigade-road-bangalore-23847",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "281469",
+      "name": "Lavonne",
+      "cloudinaryImageId": "emlehbuwgsmryxhwzhvq",
+      "locality": "St. Marks Road",
+      "areaName": "St. Marks Road",
+      "costForTwo": "₹750 for two",
+      "cuisines": [
+        "Bakery",
+        "Desserts"
+      ],
+      "avgRating": 4.6,
+      "feeDetails": {
+        "restaurantId": "281469",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3300
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3300
+      },
+      "parentId": "10530",
+      "avgRatingString": "4.6",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 18,
+        "lastMileTravel": 0.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "18 mins",
+        "lastMileTravelString": "0.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 22:40:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "newg.png",
+            "description": "Gourmet"
+          }
+        ],
+        "textExtendedBadges": [
+          {
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available",
+            "fontColor": "#7E808C"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Gourmet",
+                  "imageId": "newg.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "",
+                  "fontColor": "#7E808C",
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/lavonne-st-marks-road-bangalore-281469",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "69876",
+      "name": "Subway",
+      "cloudinaryImageId": "1ace5fa65eff3e1223feb696c956b38b",
+      "locality": "UB City",
+      "areaName": "Ashok Nagar",
+      "costForTwo": "₹350 for two",
+      "cuisines": [
+        "Fast Food",
+        "Salads",
+        "Snacks",
+        "Desserts",
+        "Beverages"
+      ],
+      "avgRating": 4.1,
+      "feeDetails": {
+        "restaurantId": "69876",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 2800
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 2800
+      },
+      "parentId": "2",
+      "avgRatingString": "4.1",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 22,
+        "lastMileTravel": 0.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "22 mins",
+        "lastMileTravelString": "0.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 23:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/subway-ub-city-ashok-nagar-bangalore-69876",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "292664",
+      "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+      "cloudinaryImageId": "o9vbz7tdbkav0gzdv4yk",
+      "locality": "3rd block",
+      "areaName": "Rajajinagar",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "Desserts",
+        "Ice Cream",
+        "Ice Cream Cakes"
+      ],
+      "avgRating": 4.6,
+      "feeDetails": {
+        "restaurantId": "292664",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 5300
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 5300
+      },
+      "parentId": "582",
+      "avgRatingString": "4.6",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 32,
+        "lastMileTravel": 5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "32 mins",
+        "lastMileTravelString": "5.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 22:08:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/kwality-walls-frozen-dessert-and-ice-cream-shop-3rd-block-rajajinagar-bangalore-292664",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "444178",
+      "name": "Magnolia Bakery",
+      "cloudinaryImageId": "6f0945b8b18d9f4241dd1cd9a70e23d7",
+      "locality": "JK Plaza",
+      "areaName": "Indiranagar",
+      "costForTwo": "₹500 for two",
+      "cuisines": [
+        "Bakery",
+        "Desserts",
+        "Ice Cream"
+      ],
+      "avgRating": 4.6,
+      "feeDetails": {
+        "restaurantId": "444178",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 6400
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 6400
+      },
+      "parentId": "267303",
+      "avgRatingString": "4.6",
+      "totalRatingsString": "5K+",
+      "sla": {
+        "deliveryTime": 35,
+        "lastMileTravel": 6.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "35 mins",
+        "lastMileTravelString": "6.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-24 00:30:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "newg.png",
+            "description": "Gourmet"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Gourmet",
+                  "imageId": "newg.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/magnolia-bakery-jk-plaza-indiranagar-bangalore-444178",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "80802",
+      "name": "Third Wave Coffee",
+      "cloudinaryImageId": "d96267738c19ec62acb5390e52faba41",
+      "locality": "Armane Nagar",
+      "areaName": "Sadashiv Nagar",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Beverages",
+        "Bakery",
+        "Continental"
+      ],
+      "avgRating": 4.4,
+      "feeDetails": {
+        "restaurantId": "80802",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 5300
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 5300
+      },
+      "parentId": "274773",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 36,
+        "lastMileTravel": 5.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "36 mins",
+        "lastMileTravelString": "5.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-24 01:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/third-wave-coffee-armane-nagar-sadashiv-nagar-bangalore-80802",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "65797",
+      "name": "Leon's - Burgers & Wings (Leon Grill)",
+      "cloudinaryImageId": "r4ufflqojich0r29efvc",
+      "locality": "Koramangala",
+      "areaName": "Koramangala",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "American",
+        "Snacks",
+        "Turkish",
+        "Portuguese",
+        "Continental"
+      ],
+      "avgRating": 4.3,
+      "feeDetails": {
+        "restaurantId": "65797",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 5900
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 5900
+      },
+      "parentId": "371281",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 34,
+        "lastMileTravel": 6.4,
+        "serviceability": "SERVICEABLE",
+        "slaString": "34 mins",
+        "lastMileTravelString": "6.4 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-24 04:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/leons-burgers-and-wings-leon-grill-koramangala-bangalore-65797",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "10575",
+      "name": "Pizza Hut",
+      "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+      "locality": "Shanti Nagar",
+      "areaName": "Shanti Nagar",
+      "costForTwo": "₹600 for two",
+      "cuisines": [
+        "Pizzas"
+      ],
+      "avgRating": 3.9,
+      "feeDetails": {
+        "restaurantId": "10575",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 2800
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 2800
+      },
+      "parentId": "721",
+      "avgRatingString": "3.9",
+      "totalRatingsString": "5K+",
+      "sla": {
+        "deliveryTime": 27,
+        "lastMileTravel": 2.1,
+        "serviceability": "SERVICEABLE",
+        "slaString": "27 mins",
+        "lastMileTravelString": "2.1 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-24 01:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/pizza-hut-shanti-nagar-bangalore-10575",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "312660",
+      "name": "Samosa Party",
+      "cloudinaryImageId": "ixgxvfu6ggvw1w1awgr1",
+      "locality": "Brigade Road",
+      "areaName": "Brigade Road",
+      "costForTwo": "₹150 for two",
+      "cuisines": [
+        "Fast Food",
+        "Snacks",
+        "Beverages",
+        "Chaat",
+        "North Indian",
+        "Street Food",
+        "Sweets",
+        "Desserts",
+        "Punjabi",
+        "Bakery"
+      ],
+      "avgRating": 4.6,
+      "feeDetails": {
+        "restaurantId": "312660",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 2800
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 2800
+      },
+      "parentId": "6364",
+      "avgRatingString": "4.6",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 27,
+        "lastMileTravel": 2.3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "27 mins",
+        "lastMileTravelString": "2.3 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 22:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹120",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/samosa-party-brigade-road-bangalore-312660",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "209917",
+      "name": "Qmin Cafe",
+      "cloudinaryImageId": "7e85a8f549c0c59cc01346a692f9fe08",
+      "locality": "Cunningham Road",
+      "areaName": "Vasanth Nagar",
+      "costForTwo": "₹200 for two",
+      "cuisines": [
+        "Cafe",
+        "Beverages",
+        "Snacks"
+      ],
+      "avgRating": 4,
+      "feeDetails": {
+        "restaurantId": "209917",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3400
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3400
+      },
+      "parentId": "440846",
+      "avgRatingString": "4.0",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 34,
+        "lastMileTravel": 3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "34 mins",
+        "lastMileTravelString": "3.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 23:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/qmin-cafe-cunningham-road-vasanth-nagar-bangalore-209917",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "3434",
+      "name": "Nandhini Deluxe",
+      "cloudinaryImageId": "dlt4ml0id5wei4yi840b",
+      "locality": "Ashok Nagar",
+      "areaName": "St Marks Road",
+      "costForTwo": "₹500 for two",
+      "cuisines": [
+        "Andhra",
+        "Biryani",
+        "Chinese",
+        "North Indian"
+      ],
+      "avgRating": 4.2,
+      "feeDetails": {
+        "restaurantId": "3434",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3300
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3300
+      },
+      "parentId": "2451",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 18,
+        "lastMileTravel": 0.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "18 mins",
+        "lastMileTravelString": "0.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 23:30:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "30% OFF",
+        "subHeader": "UPTO ₹75",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/nandhini-deluxe-ashok-nagar-st-marks-road-bangalore-3434",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "51835",
+      "name": "Aubree",
+      "cloudinaryImageId": "6a7973d432c533933de71326a0a3dde9",
+      "locality": "Timmaiah Road",
+      "areaName": "Shivajinagar",
+      "costForTwo": "₹700 for two",
+      "cuisines": [
+        "Desserts",
+        "Bakery"
+      ],
+      "avgRating": 4.3,
+      "feeDetails": {
+        "restaurantId": "51835",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3900
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3900
+      },
+      "parentId": "3807",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 27,
+        "lastMileTravel": 3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "27 mins",
+        "lastMileTravelString": "3.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 21:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "newg.png",
+            "description": "Gourmet"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "D",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Gourmet",
+                  "imageId": "newg.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "15% OFF",
+        "subHeader": "ABOVE ₹1200",
+        "discountTag": "FLAT DEAL",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/aubree-timmaiah-road-shivajinagar-bangalore-51835",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "354531",
+      "name": "Burger Seigneur",
+      "cloudinaryImageId": "t8qo8yuimdpduzbozybj",
+      "locality": "St. Marks Road",
+      "areaName": "St. Marks Road",
+      "costForTwo": "₹1200 for two",
+      "cuisines": [
+        "American",
+        "Continental",
+        "Beverages"
+      ],
+      "avgRating": 4.4,
+      "feeDetails": {
+        "restaurantId": "354531",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3300
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3300
+      },
+      "parentId": "12095",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 27,
+        "lastMileTravel": 1.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "27 mins",
+        "lastMileTravelString": "1.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-24 01:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "newg.png",
+            "description": "Gourmet"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Gourmet",
+                  "imageId": "newg.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/burger-seigneur-st-marks-road-bangalore-354531",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "342643",
+      "name": "The Pizza Bakery",
+      "cloudinaryImageId": "0335dd45be555d0a4187255e57d2ca88",
+      "locality": "Church Street",
+      "areaName": "Ashok Nagar",
+      "costForTwo": "₹700 for two",
+      "cuisines": [
+        "Pizzas",
+        "Pastas",
+        "Italian",
+        "Desserts",
+        "Continental"
+      ],
+      "avgRating": 4.4,
+      "feeDetails": {
+        "restaurantId": "342643",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3300
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3300
+      },
+      "parentId": "11108",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 25,
+        "lastMileTravel": 1.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "25 mins",
+        "lastMileTravelString": "1.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 23:00:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "newg.png",
+            "description": "Gourmet"
+          }
+        ],
+        "textExtendedBadges": [
+          {
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available",
+            "fontColor": "#7E808C"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Gourmet",
+                  "imageId": "newg.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "",
+                  "fontColor": "#7E808C",
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "40% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/the-pizza-bakery-church-street-ashok-nagar-bangalore-342643",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "53503",
+      "name": "Brik Oven",
+      "cloudinaryImageId": "49352a71022a5b08a8361306ba253892",
+      "locality": "Church Street",
+      "areaName": "Church Street",
+      "costForTwo": "₹700 for two",
+      "cuisines": [
+        "Italian",
+        "Pizzas",
+        "Desserts",
+        "Beverages"
+      ],
+      "avgRating": 4.2,
+      "feeDetails": {
+        "restaurantId": "53503",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3300
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3300
+      },
+      "parentId": "7389",
+      "avgRatingString": "4.2",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 29,
+        "lastMileTravel": 1.6,
+        "serviceability": "SERVICEABLE",
+        "slaString": "29 mins",
+        "lastMileTravelString": "1.6 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 23:30:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "newg.png",
+            "description": "Gourmet"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Gourmet",
+                  "imageId": "newg.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/brik-oven-church-street-bangalore-53503",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "29063",
+      "name": "Misu",
+      "cloudinaryImageId": "lx0tpfgsbqygafwh30wh",
+      "locality": "Ashok Nagar",
+      "areaName": "St Marks Road",
+      "costForTwo": "₹1300 for two",
+      "cuisines": [
+        "Asian",
+        "Chinese",
+        "Vietnamese",
+        "Malaysian",
+        "Sushi",
+        "Singaporean",
+        "Desserts"
+      ],
+      "avgRating": 4.4,
+      "feeDetails": {
+        "restaurantId": "29063",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3300
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3300
+      },
+      "parentId": "7415",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 24,
+        "lastMileTravel": 0.7,
+        "serviceability": "SERVICEABLE",
+        "slaString": "24 mins",
+        "lastMileTravelString": "0.7 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 23:30:00",
+        "opened": true
+      },
+      "badges": {
+        "imageBadges": [
+          {
+            "imageId": "newg.png",
+            "description": "Gourmet"
+          }
+        ],
+        "textExtendedBadges": [
+          {
+            "iconId": "guiltfree/GF_Logo_android_3x",
+            "shortDescription": "options available",
+            "fontColor": "#7E808C"
+          }
+        ]
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "Gourmet",
+                  "imageId": "newg.png"
+                }
+              }
+            ]
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            "badgeObject": [
+              {
+                "attributes": {
+                  "description": "",
+                  "fontColor": "#7E808C",
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/misu-ashok-nagar-st-marks-road-bangalore-29063",
+      "type": "WEBLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "105167",
+      "name": "Bhartiya Jalpan",
+      "cloudinaryImageId": "lpikismf7ulkpknsbw2h",
+      "locality": "Tasker Town",
+      "areaName": "Commercial Street",
+      "costForTwo": "₹270 for two",
+      "cuisines": [
+        "North Indian",
+        "Sweets",
+        "Desserts",
+        "Chaat"
+      ],
+      "avgRating": 4.3,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "105167",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 3400
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 3400
+      },
+      "parentId": "7518",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 31,
+        "lastMileTravel": 3,
+        "serviceability": "SERVICEABLE",
+        "slaString": "31 mins",
+        "lastMileTravelString": "3.0 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-08-23 21:00:00",
+        "opened": true
+      },
+      "badges": {
+        
+      },
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {
+            
+          },
+          "textBased": {
+            
+          },
+          "textExtendedBadges": {
+            
+          }
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "30% OFF",
+        "subHeader": "UPTO ₹75",
+        "discountCalloutInfo": {
+          "message": "Free Delivery",
+          "logoCtx": {
+            "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+          }
+        }
+      },
+      "orderabilityCommunication": {
+        "title": {
+          
+        },
+        "subTitle": {
+          
+        },
+        "message": {
+          
+        },
+        "customIcon": {
+          
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {
+            
+          },
+          "video": {
+            
+          }
+        }
+      },
+      "reviewsSummary": {
+        
+      },
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {
+        
+      }
+    },
+    "analytics": {
+      
+    },
+    "cta": {
+      "link": "https://www.swiggy.com/restaurants/bhartiya-jalpan-tasker-town-commercial-street-bangalore-105167",
+      "type": "WEBLINK"
+    }
+  }
+]
